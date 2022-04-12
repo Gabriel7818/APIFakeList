@@ -1,0 +1,15 @@
+{
+  "name": "apifake",
+  "version": "1.0.0",
+  "description": "API Fake List Promotion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 5000"
+  },
+  "author": "Gabriel Oliveira Damasceno",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
